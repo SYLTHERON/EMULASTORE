@@ -288,11 +288,19 @@ $idaccount = $info_user['idaccount'];
     </div>
 </div>
 <div id="layout-middle">
-    <div class="container game-card">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div id="game-card">
-
+                    <div class="header">
+                        <div class="row">
+                            <div class="col-md-1"><img src="<?= ROOT, ASSETS, IMG; ?><?= $jeux['diminutif']; ?>-logo-32.png" alt="<?= $jeux['diminutif']; ?>"></div>
+                            <div class="col-md-11">
+                                <div class="subtitle">Gestion de Jeux</div>
+                                <div class="game-title"><?= $jeux['nom_jeux']; ?></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
