@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56883843-eed6-40ce-9580-7b2fd6d1f480" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/account.php" afterPath="$PROJECT_DIR$/view/account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="darkness-project.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7768817">
-              <caret line="177" column="164" selection-start-line="177" selection-start-column="164" selection-end-line="177" selection-end-column="164" />
+            <state vertical-scroll-proportion="0.7311828">
+              <caret line="175" column="62" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="e#13984#28458#0#PHP" expanded="false" />
@@ -270,7 +269,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446072761477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="EMULASTORE">
+      <created>1446072916604</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446072916604</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -867,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7768817">
-          <caret line="177" column="164" selection-start-line="177" selection-start-column="164" selection-end-line="177" selection-end-column="164" />
+        <state vertical-scroll-proportion="0.7311828">
+          <caret line="175" column="62" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
             <element signature="e#13984#28458#0#PHP" expanded="false" />
