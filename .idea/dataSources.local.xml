@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - site_wow@192.168.1.94" uuid="517e5d8f-10bd-413e-8d87-af855592cbf6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>site_wow.*</schema-pattern>
+      <default-schemas>site_wow.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - realmd@192.168.1.94" uuid="4d96f566-fca7-489d-83b2-91618028e71d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>realmd.*</schema-pattern>
+      <default-schemas>realmd.*</default-schemas>
+    </data-source>
+  </component>
+</project>

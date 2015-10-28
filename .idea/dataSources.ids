@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - site_wow@192.168.1.94" uuid="517e5d8f-10bd-413e-8d87-af855592cbf6">
+    <database-info product="MySQL" version="5.5.44-0+deb8u1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="site_wow"/>
+    <table name="account" schema="" catalog="site_wow" type="TABLE">
+      <column name="idaccount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="emutag" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="connect" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="last_update" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ip_update" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="verif_account" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="auth" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="auth_token" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idaccount"/>
+    </table>
+    <table name="account_info" schema="" catalog="site_wow" type="TABLE">
+      <column name="idaccinfo" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="idacoount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="nom" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="prenom" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idaccinfo"/>
+    </table>
+    <table name="account_jeux" schema="" catalog="site_wow" type="TABLE">
+      <column name="idaccjeux" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="idaccount" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="idjeux" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="etat" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="idaccjeux"/>
+    </table>
+    <table name="jeux" schema="" catalog="site_wow" type="TABLE">
+      <column name="idjeux" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nom_jeux" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="diminutif" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="idjeux"/>
+    </table>
+    <table name="news_emu" schema="" catalog="site_wow" type="TABLE">
+      <column name="idnews" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="jeux" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="titre_news" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="date_news" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="contenue_news" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="idnews"/>
+    </table>
+  </data-source>
+  <data-source name="MySQL - realmd@192.168.1.94" uuid="4d96f566-fca7-489d-83b2-91618028e71d">
+    <database-info product="MySQL" version="5.5.44-0+deb8u1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="realmd"/>
+    <table name="account" schema="" catalog="realmd" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="QWNjb3VudCBpZGVudGlmaWVy" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="sha_pass_hash" sqlType="VARCHAR" precision="40" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="gmlevel" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="sessionkey" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="v" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="s" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="email" sqlType="TEXT" precision="65535" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="joindate" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_ip" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12" def="JzAuMC4wLjAn"/>
+      <column name="failed_logins" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="locked" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="last_login" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="active_realm_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="expansion" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="mutetime" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" def="MA=="/>
+      <column name="locale" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_username" unique="true" columns="username"/>
+      <index name="idx_gmlevel" unique="false" columns="gmlevel"/>
+    </table>
+    <table name="account_banned" schema="" catalog="realmd" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="QWNjb3VudCBpZGVudGlmaWVy"/>
+      <column name="bandate" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" def="MA=="/>
+      <column name="unbandate" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" def="MA=="/>
+      <column name="bannedby" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="banreason" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="active" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ=="/>
+      <primary-key name="PRIMARY" columns="id,bandate"/>
+    </table>
+    <table name="ip_banned" schema="" catalog="realmd" type="TABLE">
+      <column name="ip" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="JzAuMC4wLjAn"/>
+      <column name="bandate" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="unbandate" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="bannedby" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12" def="J1tDb25zb2xlXSc="/>
+      <column name="banreason" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12" def="J25vIHJlYXNvbic="/>
+      <primary-key name="PRIMARY" columns="ip,bandate"/>
+    </table>
+    <table name="realmcharacters" schema="" catalog="realmd" type="TABLE">
+      <column name="realmid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="QWNjb3VudCBpZGVudGlmaWVy"/>
+      <column name="acctid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="UmVhbG0gaWRlbnRpZmllcg=="/>
+      <column name="numchars" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <primary-key name="PRIMARY" columns="realmid,acctid"/>
+      <index name="acctid" unique="false" columns="acctid"/>
+    </table>
+    <table name="realmd_db_version" schema="" catalog="realmd" type="TABLE">
+      <column name="required_z2426_01_realmd_relations" sqlType="BIT" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+    </table>
+    <table name="realmlist" schema="" catalog="realmd" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="UmVhbG0gaWRlbnRpZmllcg==" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="address" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12" def="JzEyNy4wLjAuMSc="/>
+      <column name="port" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="ODA4NQ=="/>
+      <column name="icon" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="realmflags" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="Mg==" remarks="U3VwcG9ydGVkIG1hc2tzOiAweDEgKGludmFsaWQsIG5vdCBzaG93IGluIHJlYWxtIGxpc3QpLCAweDIgKG9mZmxpbmUsIHNldCBieSBtYW5nb3NkKSwgMHg0IChzaG93IHZlcnNpb24gYW5kIGJ1aWxkKSwgMHgyMCAobmV3IHBsYXllcnMpLCAweDQwIChyZWNvbW1lbmRlZCk="/>
+      <column name="timezone" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="allowedSecurityLevel" sqlType="TINYINT UNSIGNED" precision="3" scale="0" nullable="false" jdbcType="-6" def="MA=="/>
+      <column name="population" sqlType="FLOAT UNSIGNED" precision="12" scale="0" nullable="false" jdbcType="7" def="MA=="/>
+      <column name="realmbuilds" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="idx_name" unique="true" columns="name"/>
+    </table>
+    <table name="uptime" schema="" catalog="realmd" type="TABLE">
+      <column name="realmid" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" remarks="UmVhbG0gaWRlbnRpZmllcg=="/>
+      <column name="starttime" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" def="MA=="/>
+      <column name="startstring" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <column name="uptime" sqlType="BIGINT UNSIGNED" precision="20" scale="0" nullable="false" jdbcType="-5" def="MA=="/>
+      <column name="maxplayers" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5" def="MA=="/>
+      <primary-key name="PRIMARY" columns="realmid,starttime"/>
+    </table>
+  </data-source>
+</component>

@@ -1,0 +1,16 @@
+body{background: #000000;}
+
+#layout-top{background: rgba(0, 0, 0, 0) url("../img/sector-page/news.jpg") no-repeat scroll center center;height: 200px;left: 125px;position: relative;width: 1600px;}
+.sector-page{color: white;float: right;font-size: 52px;padding-right: 100px;padding-top: 15px;}
+
+#layout-middle{background: #eee; width: 1600px;position: relative; left: 125px; padding-bottom: 25px;}
+.list-article{list-style-type: none;width: 75%}
+.list-article > li.article{border-bottom: solid 1px #040404;cursor: url("../cursor/cursor-hyperlink.cur"), pointer;}
+.list-article > li.article:focus{background: #fff;}
+.list-article > li.article:hover{background: #fff;}
+
+#blog{background-color: #fff; padding: 28px 30px 30px; position: relative;}
+#blog > .header{font-size: 29px; font-weight: bold; padding-bottom: 35px;}
+#blog > .header > .left{float: left; border-bottom: solid 1px #3c3c3c;}
+#blog > .header > .right{float: right; font-size: 9px;}
+#blog > .body{font-size: 12px; padding-top: 30px;}
