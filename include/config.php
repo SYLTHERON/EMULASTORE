@@ -1,5 +1,5 @@
 <?php
-DEFINE("ROOT", "http://192.168.1.94/wow/");
+DEFINE("ROOT", "http://192.168.1.94/emulastore/");
 DEFINE("ASSETS", "assets/");
 DEFINE("CSS", "css/");
 DEFINE("IMG", "img/");
@@ -7,7 +7,7 @@ DEFINE("JS", "js/");
 DEFINE("PLUGINS", "plugins/");
 DEFINE("CLASSE", "classe/");
 
-DEFINE("NOM_SITE", "World Of Paradise");
+DEFINE("NOM_SITE", "EMULASTORE");
 //DATE
 $date_jour = date("d-m-Y");
 $date_jour_strt = strtotime(date("d-m-Y 00:00"));
