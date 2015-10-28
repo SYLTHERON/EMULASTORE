@@ -195,7 +195,10 @@ $idaccount = $info_user['idaccount'];
         <?php
         $idjeux = $_GET['idjeux'];
         $username = $info_user['email'];
-        $sql_jeux = mysql_query("SELECT * FROM account_jeux, jeux WHERE account_jeux.idjeux = jeux.idjeux AND jeux.idjeux = '$idjeux' AND account_jeux.idaccount = '$idaccount'")or die(mysql_error());
+        $sql_select_jeux = mysql_query("SELECT * FROM account_jeux WHERE idjeux = '$idjeux' AND idaccount = '$idaccount'")or die(mysql_error());
+        $select_jeux = mysql_fetch_array($sql_select_jeux);
+
+        $sql_jeux = mysql_query("SELECT * FROM jeux WHERE idjeux = '$idjeux'")or die(mysql_error());
         $jeux = mysql_fetch_array($sql_jeux);
 
         $db->database("realmd");
