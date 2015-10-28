@@ -198,7 +198,7 @@ $idaccount = $info_user['idaccount'];
 
         $sql_jeux = mysql_query("SELECT * FROM jeux WHERE idjeux = '$idjeux'")or die(mysql_error());
         $jeux = mysql_fetch_array($sql_jeux);
-
+        echo $jeux['idjeux'];
         ?>
         <div id="layout-top">
             <?php include "include/navbar.php"; ?>
