@@ -288,10 +288,12 @@ $idaccount = $info_user['idaccount'];
     </div>
 </div>
 <div id="layout-middle">
-    <div class="container">
+    <div class="container game-card">
         <div class="row">
-            <div id="<?= $jeux['diminutif']; ?>">
+            <div class="col-md-12">
+                <div id="game-card">
 
+                </div>
             </div>
         </div>
     </div>

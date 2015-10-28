@@ -18,5 +18,5 @@
 #info_jeu > .row > .col-md-8 > .game-title{color: #204d74;}
 
 /*ACCOUNT --> GAME*/
-#wow{background: url("../img/game/bg-wow.jpg") no-repeat scroll 0 0; width: 1920px; height: 1000px;}
+#game-card{width: 100%;}
 
