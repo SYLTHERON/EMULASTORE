@@ -175,7 +175,7 @@ $idaccount = $info_user['idaccount'];
                                                             <div class="game-extension"><?php if(!empty($acc_jeux['extension'])){echo $acc_jeux['extension'];} ?></div>
                                                         </div>
                                                         <div class="col-md-1">
-                                                            <button type="button" class="btn" onclick="window.location.href='index.php?view=account&sub=game&<?= $acc_jeux['idjeux']; ?>'"><i class="fa fa-chevron-right"></i></button>
+                                                            <button type="button" class="btn" onclick="window.location.href='index.php?view=account&sub=game&idjeux=<?= $acc_jeux['idjeux']; ?>'"><i class="fa fa-chevron-right"></i></button>
                                                         </div>
                                                     </div>
                                                 </div>
