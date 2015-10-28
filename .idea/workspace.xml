@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56883843-eed6-40ce-9580-7b2fd6d1f480" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/account.php" afterPath="$PROJECT_DIR$/view/account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="darkness-project.iws" />
@@ -39,26 +40,18 @@
       <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7311828">
-              <caret line="175" column="62" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
+            <state vertical-scroll-proportion="-1.280914">
+              <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-                <element signature="e#13984#28458#0#PHP" expanded="false" />
-                <marker date="1446072913000" expanded="true" signature="6893:7007" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14161:14204" placeholder="SELECT * FRO..jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14315:14366" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14315:14370" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14315:14371" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14315:14395" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="14545:14610" placeholder="SELECT * FRO..account..." />
-                <marker date="1446072913000" expanded="true" signature="21388:21502" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446072913000" expanded="true" signature="28485:28728" placeholder="..." />
-                <marker date="1446072913000" expanded="true" signature="28513:28721" placeholder="..." />
-                <marker date="1446072913000" expanded="true" signature="28539:28710" placeholder="..." />
-                <marker date="1446072913000" expanded="true" signature="28587:28695" placeholder="..." />
-                <marker date="1446072913000" expanded="true" signature="29142:29273" placeholder="..." />
-                <marker date="1446072913000" expanded="true" signature="29213:29263" placeholder="{&quot;postionClass&quot;: &quot;toast-top-center&quot;...}" />
-                <marker date="1446072913000" expanded="true" signature="29396:29449" placeholder="..." />
+                <element signature="e#103#13978#0#PHP" expanded="false" />
+                <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+                <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -153,6 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -188,7 +182,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +268,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446072916604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="EMULASTORE">
+      <created>1446072962167</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1446072962167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -291,24 +290,24 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.102345414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13636364" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13636364" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13636364" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10127932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13636364" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -375,10 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="180" />
-          <folding>
-            <element signature="e#1841#3011#0#PHP" expanded="false" />
-            <element signature="e#3021#4839#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,9 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="7" />
-          <folding>
-            <marker date="1445733922084" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,9 +396,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="96" column="180" selection-start-line="96" selection-start-column="180" selection-end-line="96" selection-end-column="180" />
-          <folding>
-            <marker date="1445815465208" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,22 +409,6 @@
             <element signature="e#1945#2317#0#PHP" expanded="false" />
             <element signature="e#2318#5070#0#PHP" expanded="false" />
             <element signature="e#5071#5889#0#PHP" expanded="false" />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
           </folding>
         </state>
       </provider>
@@ -444,23 +418,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#13984#28458#0#PHP" expanded="false" />
-            <marker date="1446072913000" expanded="true" signature="6893:7007" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14161:14204" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14366" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14370" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14371" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14395" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14545:14610" placeholder="SELECT * FRO..account..." />
-            <marker date="1446072913000" expanded="true" signature="21388:21502" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="28485:28728" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28513:28721" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28539:28710" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28587:28695" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="29142:29273" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="29213:29263" placeholder="{&quot;postionClass&quot;: &quot;toast-top-center&quot;...}" />
-            <marker date="1446072913000" expanded="true" signature="29396:29449" placeholder="..." />
+            <element signature="e#103#13978#0#PHP" expanded="false" />
+            <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+            <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -485,10 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="180" />
-          <folding>
-            <element signature="e#1841#3011#0#PHP" expanded="false" />
-            <element signature="e#3021#4839#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="7" />
-          <folding>
-            <marker date="1445733922084" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,11 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#194#2428#0#PHP" expanded="false" />
-            <element signature="e#2442#3699#0#PHP" expanded="false" />
-            <element signature="e#3713#5997#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +487,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-          <folding>
-            <marker date="1445815465208" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,22 +508,6 @@
             <element signature="e#1945#2317#0#PHP" expanded="false" />
             <element signature="e#2318#5070#0#PHP" expanded="false" />
             <element signature="e#5071#5889#0#PHP" expanded="false" />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
           </folding>
         </state>
       </provider>
@@ -589,10 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="e#1841#3011#0#PHP" expanded="false" />
-            <element signature="e#3021#4839#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <marker date="1445733922084" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,11 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#194#2428#0#PHP" expanded="false" />
-            <element signature="e#2442#3699#0#PHP" expanded="false" />
-            <element signature="e#3713#5997#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,11 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#194#2428#0#PHP" expanded="false" />
-            <element signature="e#2442#3699#0#PHP" expanded="false" />
-            <element signature="e#3713#5997#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="102" selection-end-column="6" />
-          <folding>
-            <marker date="1445815465208" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,22 +727,6 @@
             <element signature="e#1945#2317#0#PHP" expanded="false" />
             <element signature="e#2318#5070#0#PHP" expanded="false" />
             <element signature="e#5071#5889#0#PHP" expanded="false" />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..account..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
-            <marker date="1445990385932" expanded="true" signature="-1:-1" placeholder="UPDATE accou..." />
           </folding>
         </state>
       </provider>
@@ -853,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72968197">
           <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <marker date="1445733922084" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jeux..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,35 +758,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="180" />
-          <folding>
-            <element signature="e#1841#3011#0#PHP" expanded="false" />
-            <element signature="e#3021#4839#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7311828">
-          <caret line="175" column="62" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
+        <state vertical-scroll-proportion="-1.280914">
+          <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="e#13984#28458#0#PHP" expanded="false" />
-            <marker date="1446072913000" expanded="true" signature="6893:7007" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14161:14204" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14366" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14370" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14371" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14315:14395" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="14545:14610" placeholder="SELECT * FRO..account..." />
-            <marker date="1446072913000" expanded="true" signature="21388:21502" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446072913000" expanded="true" signature="28485:28728" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28513:28721" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28539:28710" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="28587:28695" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="29142:29273" placeholder="..." />
-            <marker date="1446072913000" expanded="true" signature="29213:29263" placeholder="{&quot;postionClass&quot;: &quot;toast-top-center&quot;...}" />
-            <marker date="1446072913000" expanded="true" signature="29396:29449" placeholder="..." />
+            <element signature="e#103#13978#0#PHP" expanded="false" />
+            <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+            <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
           </folding>
         </state>
       </provider>

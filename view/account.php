@@ -3,9 +3,9 @@
 $idaccount = $info_user['idaccount'];
 ?>
 <body>
-<div id="layout-top">
-    <?php include "include/navbar.php"; ?>
     <?php if(!isset($_GET['sub'])){ ?>
+    <div id="layout-top">
+        <?php include "include/navbar.php"; ?>
     <div class="jumbotron">
         <div class="container">
             <div class="row header-jumb">
@@ -206,6 +206,8 @@ $idaccount = $info_user['idaccount'];
         $sql_realmd = mysql_query("SELECT * FROM account WHERE realmd.account.username = '$username'")or die(mysql_error());
         $realmd = mysql_fetch_array($sql_realmd);
         ?>
+        <div id="layout-top">
+            <?php include "include/navbar.php"; ?>
         <div class="jumbotron">
         <div class="container">
             <div class="row header-jumb">
@@ -286,109 +288,11 @@ $idaccount = $info_user['idaccount'];
     </div>
 </div>
 <div id="layout-middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div id="info_account">
-                        <div class="title">D&Eacute;TAIL DU COMPTE</div>
-                        <h4 class="subcategory">Nom du compte</h4>
-                        <p><?= $info_user['email']; ?></p>
-                        <h4 class="subcategory">Nom</h4>
-                        <p><?= $info_user['prenom']; ?> <?= substr($info_user['nom'], 1); ?></p>
-                        <h4 class="subcategory">EMUtag</h4>
-                        <p><?= $info_user['username']; ?>#<?= $info_user['emutag']; ?></p>
-                    </div>
-                    <div id="info_account">
-                        <div class="title">S&Eacute;CURIT&Eacute; DES COMPTES</div>
-                        <h4 class="subcategory">Vérifié</h4>
-                        <p><?php if($info_user['verif_account'] == 0){echo "<i class='fa fa-times text-danger'></i> Non vérifié";}else{echo "<i class='fa fa-check text-success'></i> Vérifié";} ?></p>
-                        <h4 class="subcategory">Authentificateur</h4>
-                        <p><?php if($info_user['auth'] == 0){echo "<i class='fa fa-times text-danger'></i> Pas d'Authentificateur";}else{echo "<i class='fa fa-check text-success'></i> Authentificateur activé";} ?></p>
+    <div class="container">
+        <div class="row">
 
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div id="info_account">
-                        <div class="title">VOS COMPTE DE JEUX</div>
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <?php
-                            $sql_jeux = mysql_query("SELECT * FROM account_jeux, jeux WHERE account_jeux.idjeux = jeux.idjeux AND account_jeux.idaccount = '$idaccount'")or die(mysql_error());
-                            while($acc_jeux = mysql_fetch_array($sql_jeux))
-                            {
-                                ?>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#<?= $acc_jeux['idjeux']; ?>" aria-expanded="true" aria-controls="collapseOne">
-                                                <?= $acc_jeux['nom_jeux']; ?>
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="<?= $acc_jeux['idjeux']; ?>" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                        <div class="panel-body">
-                                            <?php if($acc_jeux['etat'] == 0){ ?>
-                                                <div id="info_jeu_disabled" data-toggle="tooltip" title="Activer votre <?= $acc_jeux['nom_jeux']; ?>">
-                                                    <div class="row">
-                                                        <div class="col-md-2 game-image">
-                                                            <img src="<?= ROOT,ASSETS,IMG; ?><?= $acc_jeux['diminutif']; ?>-logo-32.png" />
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="game-title"><?= $acc_jeux['nom_jeux']; ?></div>
-                                                            <div class="game-extension"><?php if(!empty($acc_jeux['extension'])){echo $acc_jeux['extension'];} ?></div>
-                                                        </div>
-                                                        <div class="col-md-1">
-                                                            <div class="active-game"><button type="button" data-toggle="modal" data-target="#active-game-<?= $acc_jeux['diminutif']; ?>"><i class="fa fa-chevron-right"></i></button> </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="modal fade <?= $acc_jeux['diminutif']; ?>" id="active-game-<?= $acc_jeux['diminutif']; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                                    <div class="modal-dialog" role="document">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                                <h4 class="modal-title" id="myModalLabel">
-                                                                    <div class="logo-<?= $acc_jeux['diminutif']; ?>"></div>
-                                                                </h4>
-                                                            </div>
-                                                            <div class="modal-body">
-                                                                <p class="text-modal text-center">Vous allez liés votre compte EMULASTORE avec le Service: <strong><?= $acc_jeux['nom_jeux']; ?></strong>.<br>Cette liaison est définitive, êtes-vous sur de continuer</p>
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <form action="<?= ROOT,CLASSE; ?>account.php" method="post">
-                                                                    <input type="hidden" name="idaccount" value="<?= $idaccount; ?>" />
-                                                                    <input type="hidden" name="idjeux" value="<?= $acc_jeux['idjeux']; ?>" />
-                                                                    <button type="submit" class="btn btn-success" name="action" value="active-game-<?= $acc_jeux['diminutif']; ?>"><i class="fa fa-check"></i> Oui</button>
-                                                                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Non</button>
-                                                                </form>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <?php }else{ ?>
-                                                <div id="info_jeu">
-                                                    <div class="row">
-                                                        <div class="col-md-2 game-image">
-                                                            <img src="<?= ROOT,ASSETS,IMG; ?><?= $acc_jeux['diminutif']; ?>-logo-32.png" />
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="game-title"><?= $acc_jeux['nom_jeux']; ?></div>
-                                                            <div class="game-extension"><?php if(!empty($acc_jeux['extension'])){echo $acc_jeux['extension'];} ?></div>
-                                                        </div>
-                                                        <div class="col-md-1">
-                                                            <button type="button" class="btn" onclick="window.location.href='index.php?view=account&sub=game&<?= $acc_jeux['idjeux']; ?>'"><i class="fa fa-chevron-right"></i></button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <?php } ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
 </div>
     <?php } ?>
 <div id="layout-bottom">
