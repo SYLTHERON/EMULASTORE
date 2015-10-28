@@ -40,18 +40,18 @@
       <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.280914">
-              <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.45698926">
+              <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
               <folding>
                 <element signature="e#103#13978#0#PHP" expanded="false" />
-                <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
-                <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
+                <marker date="1446073763161" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446073763161" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+                <marker date="1446073763161" expanded="true" signature="20799:20852" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -274,7 +274,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446072962167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="EMULASTORE">
+      <created>1446073592549</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446073592549</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -292,6 +298,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.102345414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13636364" sideWeight="0.5021322" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -302,7 +309,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -350,7 +356,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="EMULASTORE" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -419,14 +427,14 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#103#13978#0#PHP" expanded="false" />
-            <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
-            <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
+            <marker date="1446073763161" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+            <marker date="1446073763161" expanded="true" signature="20799:20852" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -763,18 +771,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.280914">
-          <caret line="209" column="50" selection-start-line="209" selection-start-column="50" selection-end-line="209" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
           <folding>
             <element signature="e#103#13978#0#PHP" expanded="false" />
-            <marker date="1446073582958" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446073582958" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
-            <marker date="1446073582958" expanded="true" signature="20764:20817" placeholder="..." />
+            <marker date="1446073763161" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14169:14212" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14374" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14378" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14379" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14323:14403" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446073763161" expanded="true" signature="14553:14618" placeholder="SELECT * FRO..account..." />
+            <marker date="1446073763161" expanded="true" signature="20799:20852" placeholder="..." />
           </folding>
         </state>
       </provider>

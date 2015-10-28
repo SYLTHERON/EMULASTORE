@@ -205,6 +205,7 @@ $idaccount = $info_user['idaccount'];
         $db->database("realmd");
         $sql_realmd = mysql_query("SELECT * FROM account WHERE realmd.account.username = '$username'")or die(mysql_error());
         $realmd = mysql_fetch_array($sql_realmd);
+        $db->database("site_wow");
         ?>
         <div id="layout-top">
             <?php include "include/navbar.php"; ?>
