@@ -291,7 +291,9 @@ $idaccount = $info_user['idaccount'];
 <div id="layout-middle">
     <div class="container">
         <div class="row">
+            <div id="<?= $jeux['diminutif']; ?>">
 
+            </div>
         </div>
     </div>
 </div>
