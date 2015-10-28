@@ -40,16 +40,13 @@
       <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57123655">
-              <caret line="299" column="81" selection-start-line="299" selection-start-column="81" selection-end-line="299" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.29704303">
+              <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
               <folding>
                 <element signature="e#103#13978#0#PHP" expanded="false" />
-                <marker date="1446075733404" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446075733404" expanded="true" signature="14176:14227" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446075733404" expanded="true" signature="14176:14256" placeholder="SELECT * FRO..account_jeux..." />
-                <marker date="1446075733404" expanded="true" signature="14375:14418" placeholder="SELECT * FRO..jeux..." />
-                <marker date="1446075733404" expanded="true" signature="14558:14623" placeholder="SELECT * FRO..account..." />
-                <marker date="1446075733404" expanded="true" signature="21475:21528" placeholder="..." />
+                <marker date="1446075820208" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+                <marker date="1446075820208" expanded="true" signature="14170:14213" placeholder="SELECT * FRO..jeux..." />
+                <marker date="1446075820208" expanded="true" signature="21035:21088" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -402,7 +399,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446075524138</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="EMULASTORE">
+      <created>1446075737283</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1446075737283</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -554,12 +557,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#103#13978#0#PHP" expanded="false" />
-            <marker date="1446075733404" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14176:14227" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14176:14256" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14375:14418" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14558:14623" placeholder="SELECT * FRO..account..." />
-            <marker date="1446075733404" expanded="true" signature="21475:21528" placeholder="..." />
+            <marker date="1446075820208" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446075820208" expanded="true" signature="14170:14213" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446075820208" expanded="true" signature="21035:21088" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -926,16 +926,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57123655">
-          <caret line="299" column="81" selection-start-line="299" selection-start-column="81" selection-end-line="299" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.29704303">
+          <caret line="200" column="8" selection-start-line="200" selection-start-column="8" selection-end-line="200" selection-end-column="8" />
           <folding>
             <element signature="e#103#13978#0#PHP" expanded="false" />
-            <marker date="1446075733404" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14176:14227" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14176:14256" placeholder="SELECT * FRO..account_jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14375:14418" placeholder="SELECT * FRO..jeux..." />
-            <marker date="1446075733404" expanded="true" signature="14558:14623" placeholder="SELECT * FRO..account..." />
-            <marker date="1446075733404" expanded="true" signature="21475:21528" placeholder="..." />
+            <marker date="1446075820208" expanded="true" signature="6901:7015" placeholder="SELECT * FRO..account_jeux..." />
+            <marker date="1446075820208" expanded="true" signature="14170:14213" placeholder="SELECT * FRO..jeux..." />
+            <marker date="1446075820208" expanded="true" signature="21035:21088" placeholder="..." />
           </folding>
         </state>
       </provider>

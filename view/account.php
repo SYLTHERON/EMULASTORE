@@ -195,16 +195,10 @@ $idaccount = $info_user['idaccount'];
         <?php
         $idjeux = $_GET['idjeux'];
         $username = $info_user['email'];
-        $sql_select_jeux = mysql_query("SELECT * FROM account_jeux WHERE idjeux = '$idjeux' AND idaccount = '$idaccount'")or die(mysql_error());
-        $select_jeux = mysql_fetch_array($sql_select_jeux);
 
         $sql_jeux = mysql_query("SELECT * FROM jeux WHERE idjeux = '$idjeux'")or die(mysql_error());
         $jeux = mysql_fetch_array($sql_jeux);
 
-        $db->database("realmd");
-        $sql_realmd = mysql_query("SELECT * FROM account WHERE realmd.account.username = '$username'")or die(mysql_error());
-        $realmd = mysql_fetch_array($sql_realmd);
-        $db->database("site_wow");
         ?>
         <div id="layout-top">
             <?php include "include/navbar.php"; ?>
